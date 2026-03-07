@@ -21,10 +21,9 @@
 > Backend Developer
 
 **Kỹ năng tôi còn thiếu / yếu trong vai trò đó là gì?**
-
-> Xây dựng RESTful API chuẩn
-> Sử dụng JPA/Hibernate hiệu quả
-> Authentication & Authorization với JWT
+> Xây dựng RESTful API chuẩn  
+> Sử dụng JPA/Hibernate hiệu quả  
+> Authentication & Authorization với JWT  
 
 **Tôi có thể học và thực hành được kỹ năng đó trong 8 tuần không?**
 > Có, thông qua việc xây dựng backend cho hệ thống bán sản phẩm.
