@@ -46,8 +46,8 @@ _Mục tiêu tuần: Áp dụng được kiến thức tuần 1 vào thực tế
 |---|---|---|---|
 | Tạo REST Controller đơn giản |[HelloController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/HelloController.java) | [x] | |
 | Tạo file entity cho User |[User](src/samples/tuan1/demo/src/main/java/com/example/demo/model/User.java) | [x] | |
-| Tạo CRUD API cho User | Các API GET, POST hoạt động | [x] |[UserController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/UserController.java) |
-| Test API bằng Postman | Request và Response JSON | [x] | |
+| Tạo CRUD API cho User | [UserController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/UserController.java) | [x] |  |
+| Test API bằng Postman |  | [x] | |
 
 - Link kết quả đầu ra: https://docs.google.com/document/d/1sqEcDQpNJBBbvCJUXVmdpohDjKPPtrE7OGWhGO8riEQ/edit?tab=t.6r58axjfbknw
 
