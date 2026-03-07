@@ -3,6 +3,7 @@
 > **Nguyên tắc:** Đọc → Hiểu → Thực hiện. Không bỏ qua bước nào.
 >
 > Mỗi tuần gồm **2 phần**:
+>
 > - **Tìm hiểu / Đọc:** Tài liệu, khái niệm, ví dụ tham khảo
 > - **Thực hành:** Làm thử, ghi lại kết quả
 >
@@ -15,15 +16,18 @@
 _Mục tiêu tuần: Nắm vững khái niệm cốt lõi trước khi thực hành_
 
 **Tìm hiểu / Đọc:**
-| Nội dung cần đọc / tìm hiểu | Nguồn tham khảo | Trạng thái | Ghi chú / Điều đã hiểu |
+| Nội dung | Nguồn | Trạng thái | Ghi chú |
 |---|---|---|---|
-| | | [ ] | |
-| | | [ ] | |
+| Tổng quan Spring Boot | https://www.geeksforgeeks.org/advance-java/spring-boot/ | [x] | |
+| Kiến trúc Spring Boot | https://www.geeksforgeeks.org/springboot/introduction-to-spring-boot/ | [x] | |
 
 **Thực hành:**
 | Nhiệm vụ | Kết quả đầu ra | Trạng thái | Ghi chú |
 |---|---|---|---|
-| | | [ ] | |
+| Tạo project Spring Boot bằng Spring Initializr | | [x] | |
+| Tạo cấu trúc các layer (model, controller, service, repository) |[Cấu trúc](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/HelloController.java) | [x] | |
+
+- Link kết quả đầu ra: https://docs.google.com/document/d/1sqEcDQpNJBBbvCJUXVmdpohDjKPPtrE7OGWhGO8riEQ/edit?usp=sharing
 
 ---
 
@@ -34,17 +38,24 @@ _Mục tiêu tuần: Áp dụng được kiến thức tuần 1 vào thực tế
 **Tìm hiểu / Đọc:**
 | Nội dung | Nguồn | Trạng thái | Ghi chú |
 |---|---|---|---|
-| | | [ ] | |
+| Kiến trúc REST API | https://www.geeksforgeeks.org/node-js/rest-api-introduction/ | [x] | |
+| CRUD API với Spring Boot | https://www.geeksforgeeks.org/springboot/spring-boot-introduction-to-restful-web-services/ | [x] | |
 
 **Thực hành:**
 | Nhiệm vụ | Kết quả đầu ra | Trạng thái | Ghi chú |
 |---|---|---|---|
-| | | [ ] | |
+| Tạo REST Controller đơn giản |[HelloController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/HelloController.java) | [x] | |
+| Tạo file entity cho User |[User](src/samples/tuan1/demo/src/main/java/com/example/demo/model/User.java) | [x] | |
+| Tạo CRUD API cho User | Các API GET, POST hoạt động | [x] |[UserController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/UserController.java) |
+| Test API bằng Postman | Request và Response JSON | [x] | |
 
-> **Chuẩn bị cho buổi trao đổi:**
-> - Đã đọc / tìm hiểu được gì?
-> - Đã thực hành được gì? (link / file)
-> - Vướng mắc ở đâu? Đã thử giải quyết chưa?
+- Link kết quả đầu ra: https://docs.google.com/document/d/1sqEcDQpNJBBbvCJUXVmdpohDjKPPtrE7OGWhGO8riEQ/edit?tab=t.6r58axjfbknw
+
+  > **Chuẩn bị cho buổi trao đổi:**
+  >
+  > - Đã đọc / tìm hiểu được gì?
+  > - Đã thực hành được gì? (link / file)
+  > - Vướng mắc ở đâu? Đã thử giải quyết chưa?
 
 ---
 
@@ -79,6 +90,7 @@ _Mục tiêu tuần: Có sản phẩm / kết quả giữa kỳ rõ ràng, có t
 | | | [ ] | |
 
 > **Tự đánh giá giữa kỳ:**
+>
 > - Đã hoàn thành được bao nhiêu % kế hoạch?
 > - Kỹ năng nào đã hiểu chắc? Kỹ năng nào còn mơ hồ?
 > - Điều chỉnh kế hoạch nửa sau nếu cần:
@@ -140,6 +152,7 @@ _Mục tiêu tuần: Demo, báo cáo, phản ánh lại toàn bộ quá trình_
 | Demo / báo cáo cuối kỳ | Demo URL / Report | [ ] | |
 
 > **Phản ánh cuối kỳ:**
+>
 > - Kỹ năng nào tôi thực sự đã học và hiểu được?
 > - Nếu làm lại, tôi sẽ thay đổi gì trong kế hoạch?
 > - Kỹ năng này hữu ích như thế nào cho định hướng nghề nghiệp của tôi?
