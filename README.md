@@ -7,9 +7,9 @@
 - **Họ tên: Nguyễn Đình Khải**
 - **MSSV: B23DCCN420**
 - **Lớp: D23CQCN14-B**
-- **Email:nguyendinhkhai17102005@gmail.com**
+- **Email: nguyendinhkhai17102005@gmail.com**
 - **GitHub username: KaiNguyenPTIT**
-- **Link repository: **
+- **Link repository: https://github.com/KaiNguyenPTIT/ttcs-B23DCCN420-NguyenDinhKhai**
 
 ---
 
