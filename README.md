@@ -21,6 +21,7 @@
 > Backend Developer
 
 **Kỹ năng tôi còn thiếu / yếu trong vai trò đó là gì?**
+
 > Xây dựng RESTful API chuẩn
 > Sử dụng JPA/Hibernate hiệu quả
 > Authentication & Authorization với JWT
