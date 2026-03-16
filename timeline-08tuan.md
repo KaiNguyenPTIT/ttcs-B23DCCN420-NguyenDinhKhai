@@ -46,8 +46,13 @@ _Mục tiêu tuần: Áp dụng được kiến thức tuần 1 vào thực tế
 |---|---|---|---|
 | Tạo REST Controller đơn giản |[HelloController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/HelloController.java) | [x] | |
 | Tạo file entity cho User |[User](src/samples/tuan1/demo/src/main/java/com/example/demo/model/User.java) | [x] | |
+<<<<<<< HEAD
 | Tạo CRUD API cho User | [UserController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/UserController.java) | [x] |  |
 | Test API bằng Postman |  | [x] | |
+=======
+| Tạo CRUD API cho User | [UserController](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/UserController.java) | [x] | |
+| Test API bằng Postman | | [x] | |
+>>>>>>> e297b0e (cap nhat nhiem vu va tien do hoan thanh tuan 3)
 
 - Link kết quả đầu ra: https://docs.google.com/document/d/1sqEcDQpNJBBbvCJUXVmdpohDjKPPtrE7OGWhGO8riEQ/edit?tab=t.6r58axjfbknw
 
@@ -66,12 +71,16 @@ _Mục tiêu tuần: Hiểu sâu hơn, bắt đầu mở rộng sang tính năng
 **Tìm hiểu / Đọc:**
 | Nội dung | Nguồn | Trạng thái | Ghi chú |
 |---|---|---|---|
-| | | [ ] | |
+| Quan hệ giữa các entity trong JPA | https://tuyendung.evotek.vn/mo-hinh-hoa-cac-moi-quan-he-trong-jpa-one-to-one-one-to-many-many-to-many-java-spring-roadmap/ | [x] | |
+| REST API Best Practices | https://restfulapi.net/rest-api-best-practices/ | [x] | |
 
 **Thực hành:**
 | Nhiệm vụ | Kết quả đầu ra | Trạng thái | Ghi chú |
 |---|---|---|---|
-| | | [ ] | |
+| Tạo entity Product| | [x] | [Product.java](src/samples/tuan1/demo/src/main/java/com/example/demo/model/Product.java)|
+| Tạo entity Category | | [x] | [Category.java](src/samples/tuan1/demo/src/main/java/com/example/demo/model/Category.java) |
+| CRUD API cho Product | | [x] | [ProductController.java](src/samples/tuan1/demo/src/main/java/com/example/demo/controller/ProductController.java) |
+| Test API bằng Postman | | [x] | [Link kết quả đầu ra](https://docs.google.com/document/d/1sqEcDQpNJBBbvCJUXVmdpohDjKPPtrE7OGWhGO8riEQ/edit?tab=t.o6kqzgoh0xd) |
 
 ---
 

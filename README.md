@@ -61,7 +61,7 @@
 
 ---
 
-## 4. Kế hoạch thực hiện 08 tuần (timeline-08tuan.md)
+## 4. Kế hoạch thực hiện 08 tuần ([timeline-08tuan.md](timeline-08tuan.md))
 
 ## 5. Checklist & Tổng kết
 
