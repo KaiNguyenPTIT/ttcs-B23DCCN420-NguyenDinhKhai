@@ -19,7 +19,18 @@ public class Product {
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
-
+    
+    // Constructer
+    public Product() {}
+    public Product(Long id, String name, String brand, Double price, int volume, String description, Category category) {
+        this.id = id;
+        this.name = name;
+        this.brand = brand;
+        this.price = price;
+        this.volume = volume;
+        this.description = description;
+        this.category = category;
+    }
     //Getter
     public Long getId() {
         return id;

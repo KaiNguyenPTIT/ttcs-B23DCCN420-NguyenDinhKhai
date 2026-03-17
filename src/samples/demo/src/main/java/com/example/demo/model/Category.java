@@ -20,7 +20,12 @@ public class Category {
     @JsonIgnore
     private List<Product> products;
 
+    // Constructer
     public Category() {}
+    public Category(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     //Getter
     public Long getId() {

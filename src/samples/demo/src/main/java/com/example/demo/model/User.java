@@ -13,7 +13,13 @@ public class User {
     private String username;
     private String password;
 
+    // Constructer
     public User() {}
+    public User(Long id, String username, String password) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+    }
 
     //Getter
     public Long getId() {
