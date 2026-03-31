@@ -20,9 +20,9 @@ public class CategoryService {
     public List<Category> getAllCategories(){
         return categoryRepository.findAll();
     }
-
+    
     public Category getCategoryById(Long id) {
-        return categoryRepository.findById(id).orElseThrow(() -> new CategoryNotFoundException(String.format("Danh mục với %d không tồn tại!", id)));
+        return categoryRepository.findById(id).orElseThrow(() -> new CategoryNotFoundException(String.format("Danh mục với id = %d không tồn tại!", id)));
     }
 
     public Category createCategory(Category category) {
@@ -40,7 +40,7 @@ public class CategoryService {
 
     public void deleteCategory(Long id) {
 
-    Category category = categoryRepository.findById(id).orElseThrow(() -> new CategoryNotFoundException(String.format("Danh mục với %d không tồn tại!", id)));
+    Category category = categoryRepository.findById(id).orElseThrow(() -> new CategoryNotFoundException(String.format("Danh mục với id = %d không tồn tại!", id)));
 
     List<Product> products = productRepository.findAllByCategory(category);
 

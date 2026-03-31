@@ -22,4 +22,4 @@ Exception Hanndling trong Spring Boot
 
 Trong thực tế: @ExceptionHandler + @ControllerAdvice là cách được dùng phổ biến nhất
 
-Luồng hoạt động: Request -> Controller -> Service -> findById() -> throw Exception -> GlobalExceptionHandler -> Trả JSON ErrorResponse
+Luồng hoạt động: Request -> Controller -> Service -> throw Exception -> GlobalExceptionHandler -> Trả JSON ErrorResponse
